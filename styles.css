@@ -1,13 +1,12 @@
 body {
   background: rgba(255,255,255,1);
   color: rgba(20, 20, 20,1);
-  font-size: 25px;
+  font-size: 24px;
   font-family: Helvetica;
   margin: 0;
 }
 h1 {
-  font-weight: lighter;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 900;
 }
 h2 {
@@ -15,15 +14,11 @@ h2 {
 }
 p {
   font-weight: lighter;
-  font-size: 18px;
+  font-size: 16px;
 }
 a {
-  color: #313131;
-  font-weight: 900;
+  color: rgba(20, 20, 20,1);
   text-decoration: none;
-}
-a:hover {
-  color: rgba(47, 36, 58, 1);
 }
 #banner {
   color: white;
@@ -40,7 +35,7 @@ a:hover {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
 }
 #banner h1 {
-  font-size: 50px;
+  font-size: 40px;
 }
 #banner p {
   opacity: 1;
@@ -53,7 +48,7 @@ a:hover {
 .card {
   background: rgba(219, 228, 207,1);
   border: none;
-  font-weight: lighter;
+  font-weight: 400;
   text-align: center;
   box-shadow: 0 0 20px rgba(60, 95, 13,0.2);
   margin-bottom: 20px;
@@ -64,13 +59,13 @@ a:hover {
   padding: 20px;
 }
 #footer {
-  padding: 30px;
-  color: #319D11;
+  padding: 24px;
+  color: rgb(49, 157, 17);
 }
 #footer a {
-  font-size: 30px;
-  color: #319D11;
+  font-size: 32px;
+  color: rgb(49, 157, 17);
 }
 #footer a:hover {
-  color: #3bb914;
+  color: rgb(59, 185, 20);
 }
